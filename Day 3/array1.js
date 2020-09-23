@@ -1,10 +1,11 @@
-var emp=newArray();
+var emp=function newArray(){
 emp[0]="meera";
 emp[1]="anu";
+}
 
 function pushData() 
 {
-    emp.push("anu")
+    emp.push("anusayu")
     printData()
 }
 function popData()

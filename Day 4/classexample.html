@@ -1,0 +1,20 @@
+<html>
+   
+    <body>
+        <button onclick="mycar.getmodel()">getAlert</button>
+
+    
+    <script>
+       class Car{
+               constructor(model){
+                   this.model=model
+               } 
+               getmodel(){
+                   alert(this.model)
+               }
+       }
+       var mycar=new Car("innova")
+       console.log(mycar)
+    </script>
+    </body>
+</html>
